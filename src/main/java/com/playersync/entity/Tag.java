@@ -3,7 +3,14 @@ package com.playersync.entity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-
+/*
+ * TODO:
+ * - Remove explicit getters and setters since Lombok is used
+ * -
+ * -
+ * -
+ * -
+ */
 @Entity
 @Table(name = "tags")
 @Getter @Setter

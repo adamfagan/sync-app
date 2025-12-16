@@ -7,6 +7,14 @@ import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
 
+/*
+ * TODO:
+ * - Remove explicit getters and setters since Lombok is used
+ * - annotate all fields with @Column
+ * - do you consider
+ * -
+ * -
+ */
 @Entity
 @Table(name = "missions")
 @Getter @Setter

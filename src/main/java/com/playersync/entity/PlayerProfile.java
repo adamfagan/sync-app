@@ -5,6 +5,14 @@ import lombok.Getter;
 import lombok.Setter;
 import java.time.LocalDateTime;
 
+/*
+ * TODO:
+ * - Remove explicit getters and setters since Lombok is used
+ * - country should be non nullable with max length 50
+ * - add column annotations
+ * -
+ * -
+ */
 @Entity
 @Table(name = "player_profiles")
 @Getter @Setter

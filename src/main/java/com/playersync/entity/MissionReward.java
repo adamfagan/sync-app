@@ -4,6 +4,14 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+/*
+ * TODO:
+ * - Remove explicit getters and setters since Lombok is used
+ * - add column annotations for the rest of the fields
+ * -
+ * -
+ * -
+ */
 @Entity
 @Table(name = "mission_rewards")
 @Getter @Setter

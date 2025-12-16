@@ -11,7 +11,14 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
-
+/*
+ * TODO:
+ * - Constructor injection can be done via lombok
+ * - Make custom exceptions instead of generic Exception
+ * - Constant for magic strings
+ * - Make key formatting a private method for reusability
+ * - Try AOP for cache service utility methods
+ */
 @Service
 public class RedisCacheService {
 

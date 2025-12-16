@@ -17,6 +17,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/*
+ * TODO:
+ * - Mapping logic for rewards and tags is repeated, consider refactoring into separate methods (mappers).
+ * - Null checks for collections getRewards and getTags can be simplified with collections.emptyList().
+ * -
+ * -
+ * -
+ */
 @Service
 public class PlayerSyncService {
 

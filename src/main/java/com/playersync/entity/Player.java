@@ -7,6 +7,14 @@ import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
 
+/*
+ * TODO:
+ * - Remove explicit getters and setters since Lombok is used
+ * - createdAt is non nullable false
+ * - For createdAt and updatedAt consider using jpa auditing annotations
+ * - status is also not nullable
+ * -
+ */
 @Entity
 @Table(name = "players")
 @Getter @Setter

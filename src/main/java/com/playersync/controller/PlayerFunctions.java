@@ -9,6 +9,16 @@ import org.springframework.stereotype.Component;
 import java.util.Optional;
 import java.util.logging.Logger;
 
+/*
+ * TODO:
+ * - field injection not recommended(unit test, tight coupling), use constructor injection instead with lombok annotation required args constructor
+ * - magic strings, use constants
+ * - page and size query parameters can throw numberFormatException, handle it please
+ * - IllegalArgumentException is too generic, make custom exceptions for you cases
+ * - PlayerSyncService null check is redundant -> proper constructor injection should be enough
+ * - class should be named controller according to spring naming conventions
+ * - Add unit tests for important parts of logic -> RedisCacheService, PlayerSyncService
+ */
 @Component
 public class PlayerFunctions {
 

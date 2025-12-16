@@ -3,6 +3,14 @@ package com.playersync.dto;
 import lombok.Data;
 import java.util.List;
 
+/*
+ * TODO:
+ * - rename to class according to the java naming conventions
+ * - @Data lombok annotation already provides getters and setters, explicit methods can be removed
+ * -
+ * -
+ * -
+ */
 @Data
 public class PlayerSyncDTO {
     private Long id;

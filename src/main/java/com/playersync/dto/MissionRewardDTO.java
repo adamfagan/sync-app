@@ -2,6 +2,14 @@ package com.playersync.dto;
 
 import lombok.Data;
 
+/*
+ * TODO:
+ * - rename to class according to the java naming conventions
+ * - @Data lombok annotation already provides getters and setters, explicit methods can be removed
+ * - amount is wrapper class, but other numeric fields are primitive
+ * -
+ * -
+ */
 @Data
 public class MissionRewardDTO {
 
